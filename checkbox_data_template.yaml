@@ -1,0 +1,35 @@
+categories:
+  - name: Category 1
+    state: true
+    subcategories:
+      - name: Subcategory 1
+        state: false
+        tasks:
+          - name: Task 1
+            state: true
+          - name: Task 2
+            state: false
+      - name: Subcategory 2
+        state: true
+        tasks:
+          - name: Task 1
+            state: true
+          - name: Task 2
+            state: true
+  - name: Category 2
+    state: false
+    subcategories:
+      - name: Subcategory 1
+        state: true
+        tasks:
+          - name: Task 1
+            state: false
+          - name: Task 2
+            state: false
+      - name: Subcategory 2
+        state: false
+        tasks:
+          - name: Task 1
+            state: true
+          - name: Task 2
+            state: false
