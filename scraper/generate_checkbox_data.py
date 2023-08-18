@@ -1,9 +1,9 @@
 import json
 import yaml
 
-output_file = 'checkbox_data.yaml'
+output_file = 'configs/checkbox_data_sota.yaml'
 
-with open('tree_methods.json', 'r') as json_file:
+with open('data/tree_sota.json', 'r') as json_file:
     json_data = json.load(json_file)
 
 yaml_data = []
@@ -11,18 +11,21 @@ for category_name, subcategories in json_data.items():
     category = {
         "name": category_name,
         "state": True,
+        "hasRead": False,
         "subcategories": []
     }
     for subcategory_name, tasks in subcategories.items():
         subcategory = {
             "name": subcategory_name,
-            "state": True,
+            "state": False,
+            "hasRead": False,
             "tasks": []
         }
         for task_name, task_href in tasks.items():
             task = {
                 "name": task_name,
                 "href": task_href,
+                "hasRead": False,
                 "state": True
             }
             subcategory["tasks"].append(task)
