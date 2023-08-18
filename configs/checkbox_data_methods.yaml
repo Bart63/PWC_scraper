@@ -4593,7 +4593,7 @@ categories:
       state: true
   - hasRead: false
     name: Markov Chain Monte Carlo
-    state: false
+    state: true
     tasks:
     - hasRead: false
       href: /method/metropolis-hastings
@@ -4749,7 +4749,7 @@ categories:
       state: true
   - hasRead: false
     name: Pruning
-    state: false
+    state: true
     tasks:
     - hasRead: false
       href: /method/movement-pruning
@@ -4921,7 +4921,7 @@ categories:
       state: true
   - hasRead: false
     name: Hybrid Optimization
-    state: false
+    state: true
     tasks:
     - hasRead: false
       href: /method/meuzz
@@ -4993,7 +4993,7 @@ categories:
       state: true
   - hasRead: false
     name: Kernel Methods
-    state: false
+    state: true
     tasks:
     - hasRead: false
       href: /method/ntk
@@ -5141,7 +5141,7 @@ categories:
       state: true
   - hasRead: false
     name: Negative Sampling
-    state: false
+    state: true
     tasks:
     - hasRead: false
       href: /method/self-adversarial-negative-sampling
@@ -5181,7 +5181,7 @@ categories:
       state: true
   - hasRead: false
     name: Generalization
-    state: false
+    state: true
     tasks:
     - hasRead: false
       href: /method/distributional-generalization
@@ -5237,7 +5237,7 @@ categories:
       state: true
   - hasRead: false
     name: Bot Detection
-    state: false
+    state: true
     tasks:
     - hasRead: false
       href: /method/biman
@@ -5245,7 +5245,7 @@ categories:
       state: true
   - hasRead: false
     name: Rule Learners
-    state: false
+    state: true
     tasks:
     - hasRead: false
       href: /method/gpfl
@@ -5261,7 +5261,7 @@ categories:
       state: true
   - hasRead: false
     name: Sparsity
-    state: false
+    state: true
     tasks:
     - hasRead: false
       href: /method/neural-tangent-transfer
@@ -5325,7 +5325,7 @@ categories:
       state: true
   - hasRead: false
     name: Twin Networks
-    state: false
+    state: true
     tasks:
     - hasRead: false
       href: /method/siamese-network
@@ -5341,7 +5341,7 @@ categories:
       state: true
   - hasRead: false
     name: Label Correction
-    state: false
+    state: true
     tasks:
     - hasRead: false
       href: /method/label-quality-model
