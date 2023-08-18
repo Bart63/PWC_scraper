@@ -1,2 +1,2 @@
-# PWC_scrapper
-Papers with Code scrapper
+# PWC_scraper
+Papers with Code scraper
