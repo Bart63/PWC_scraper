@@ -9,7 +9,7 @@ def count_third_level(data):
                     count += len(inner_value)
     return count
 
-with open('tree.json', 'r') as json_file:
+with open('data/tree_methods.json', 'r') as json_file:
     json_data = json.load(json_file)
 
 third_level_count = count_third_level(json_data)

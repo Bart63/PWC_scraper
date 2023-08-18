@@ -3,7 +3,7 @@ import yaml
 
 output_file = 'checkbox_data.yaml'
 
-with open('tree.json', 'r') as json_file:
+with open('tree_methods.json', 'r') as json_file:
     json_data = json.load(json_file)
 
 yaml_data = []
